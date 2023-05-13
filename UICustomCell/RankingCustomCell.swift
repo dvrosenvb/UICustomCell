@@ -26,6 +26,7 @@ class RankingCustomCell: UITableViewCell {
     imgAvatar.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
     imgAvatar.widthAnchor.constraint(equalToConstant: 100).isActive = true
     imgAvatar.heightAnchor.constraint(equalToConstant: 100).isActive = true
+    contentView.backgroundColor = .red
   }
   
   required init?(coder: NSCoder) {
